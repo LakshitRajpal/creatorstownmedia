@@ -4,8 +4,9 @@
   "description": "A sample website similar to iplix.in with placeholder content and images.",
   "main": "src/index.html",
   "scripts": {
-    "start": "live-server src",
-    "build": "echo 'Build step not defined yet.'"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [
     "website",
